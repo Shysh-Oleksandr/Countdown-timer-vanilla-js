@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countdown to Halloween</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
@@ -16,28 +17,38 @@
         <div class="countdown__item">
             <div class="dayc-c">
                 <p class="big-text" id="days">5</p>
-                <span>days</span>
+                <span class="countdown__label">days</span>
             </div>
         </div>
         <div class="countdown__item">
             <div class="hours-c">
                 <p class="big-text" id="hours">2</p>
-                <span>hours</span>
+                <span class="countdown__label">hours</span>
             </div>
         </div>
          <div class="countdown__item">
             <div class="minutes-c">
                 <p class="big-text" id="minutes">1</p>
-                <span>minutes</span>
+                <span class="countdown__label">minutes</span>
             </div>
         </div>
          <div class="countdown__item">
             <div class="seconds-c">
                 <p class="big-text" id="seconds">40</p>
-                <span>seconds</span>
+                <span class="countdown__label">seconds</span>
             </div>
         </div>
          
     </div>
+
+    <nav class="countdown__navigation" id="nav">
+        <ul class="countdown__list">
+            <li class="countdown__link"><a href="#christmas">Christmas</a></li>
+            <li class="countdown__link"><a href="#new-year">New Year</a></li>
+            <li class="countdown__link active"><a href="#halloween">HALLOWEEN</a></li>
+            <li class="countdown__link"><a href="#easter">Easter</a></li>
+            <li class="countdown__link"><a href="#valentine">Valentine’s Day</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
