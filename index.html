@@ -4,37 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countdown to Halloween</title>
+    <title>Holiday Countdown</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <h2 class="suptitle">— countdown to —</h2>
-    <h1 class="title">HALLOWEEN</h1>
+    <h1 class="title fade" id="title">HALLOWEEN</h1>
 
-    <div class="countdown__container">
+    <div class="countdown__container fade">
         <div class="countdown__item">
             <div class="dayc-c">
-                <p class="big-text" id="days">5</p>
+                <p class="big-text fade" id="days">5</p>
                 <span class="countdown__label">days</span>
             </div>
         </div>
         <div class="countdown__item">
             <div class="hours-c">
-                <p class="big-text" id="hours">2</p>
+                <p class="big-text fade" id="hours">2</p>
                 <span class="countdown__label">hours</span>
             </div>
         </div>
          <div class="countdown__item">
             <div class="minutes-c">
-                <p class="big-text" id="minutes">1</p>
+                <p class="big-text fade" id="minutes">1</p>
                 <span class="countdown__label">minutes</span>
             </div>
         </div>
          <div class="countdown__item">
             <div class="seconds-c">
-                <p class="big-text" id="seconds">40</p>
+                <p class="big-text fade" id="seconds">40</p>
                 <span class="countdown__label">seconds</span>
             </div>
         </div>
@@ -43,11 +43,11 @@
 
     <nav class="countdown__navigation" id="nav">
         <ul class="countdown__list">
-            <li class="countdown__link"><a href="#christmas">Christmas</a></li>
-            <li class="countdown__link"><a href="#new-year">New Year</a></li>
-            <li class="countdown__link active"><a href="#halloween">HALLOWEEN</a></li>
-            <li class="countdown__link"><a href="#easter">Easter</a></li>
-            <li class="countdown__link"><a href="#valentine">Valentine’s Day</a></li>
+            <li class="countdown__link active"><a href="#halloween" data-image="https://images.unsplash.com/photo-1477313372947-d68a7d410e9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" data-date="31 Oct 2022">Halloween</a></li>
+            <li class="countdown__link"><a href="#christmas" data-image="https://images.unsplash.com/photo-1612979168796-bcae1575b8c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hyaXNtYXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" data-date="25 Dec 2019">Christmas</a></li>
+            <li class="countdown__link"><a href="#new-year" data-image="https://images.unsplash.com/photo-1503315883035-c3fb190b434e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG5ldyUyMHllYXIlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" data-date="1 Jan 2022">New Year</a></li>
+            <li class="countdown__link"><a href="#easter" data-image="https://images.unsplash.com/photo-1521733470882-816f2df78851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGVhc3RlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" data-date="17 Apr 2020">Easter</a></li>
+            <li class="countdown__link"><a href="#valentine" data-image="https://images.unsplash.com/photo-1516414559093-91c1c3d7359c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmFsZW50aW5lcyUyMGRheXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" data-date="14 Feb 2021">Valentine’s Day</a></li>
         </ul>
     </nav>
 </body>
