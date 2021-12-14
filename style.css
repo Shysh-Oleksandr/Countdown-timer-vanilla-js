@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 body {
     font-family: 'Josefin Slab', serif;
-    background-image: url(img/halloween.jpg);
+    background-image: url(img/halloween.webp);
     height: 100vh;
     min-height: 480px;
     background-size: cover;
